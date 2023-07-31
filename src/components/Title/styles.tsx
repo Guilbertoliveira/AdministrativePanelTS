@@ -9,7 +9,7 @@ background-image: ${props => props.image ? `url(${props.image})` : 'none'};
 `
 
 export const TitleStyled = styled.h2`
-color: var(--azul-claro);
+color: var(--light-blue);
 `
 
 export const ContainerStyled = styled.div`
