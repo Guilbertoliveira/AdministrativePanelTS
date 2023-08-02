@@ -1,14 +1,19 @@
 <h1> Dashboard of patient</h1>
 
-<h2>:hammer:Project Status:hammer:</h2>
+<h3>:hammer:Project Status:hammer:</h3>
 
-<h2>Project description</h2>
+<h3>Project description</h3>
 
-<h2 >Version Mobile</h2>
+<h3>Improvements created by me</h3>
+<ol>
+    <li></li>
+</ol>
 
-<h2>Version Desktop</h2>
+<h3 >Version Mobile</h3>
 
-<h2>Technologies used</h2>
+<h3>Version Desktop</h3>
+
+<h3>Technologies used</h3>
 <div>
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="35" title="React"/>
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="35" title="Typescript"/>
@@ -17,9 +22,9 @@
     <img src="https://mui.com/static/logo.png" width="40" title="MUI">
 </div>
     
-<h2> Project link </h2>
+<h3> Project link </h3>
 
-<h2>Contributing</h2>
+<h3>Contributing</h3>
 <ul>
 <li>Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.</li>
 <li>Fork the Project</li>
