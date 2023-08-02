@@ -1,22 +1,23 @@
+<h1> Dashboard of patient</h1>
 
-![React com Typescript: desenvolvendo uma área administrativa com MUI, Recharts e Styled Components](https://imgur.com/Qgf3van.png)
+<h2>:hammer:Project Status:hammer:</h2>
 
-# React com Typescript: desenvolvendo uma área administrativa
+<h2>Project description</h2>
 
-Este projeto faz parte da escola Front-end e tem como objetivo ensinar a construção de uma página de área administrativa utilizando React com Typescript e as bibliotecas Styled-Components, MUI e Recharts.
+<h2 >Version Mobile</h2>
 
-## Funcionalidades do projeto
+<h2>Version Desktop</h2>
 
-A página de área administrativa terá as seguintes funcionalidades:
+<h2>Technologies used</h2>
+    
+<h2> Project link </h2>
 
-- Dashboard: Página principal com tabela, gráficos e informações.
-
-## Técnicas e tecnologias utilizadas
-
-As técnicas e tecnologias que serão utilizadas neste projeto são:
-
-- React: Biblioteca para construção de interfaces de usuário.
-- Typescript: Linguagem de programação que adiciona tipagem estática ao Javascript.
-- Styled-Components: Biblioteca para estilização de componentes React utilizando CSS-in-JS.
-- MUI: Biblioteca de componentes React para criação de interfaces de usuário modernas e responsivas.
-- Recharts: Biblioteca para criação de gráficos utilizando React.
+<h2>Contributing</h2>
+<ul>
+<li>Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.</li>
+<li>Fork the Project</li>
+<li>Create your Feature Branch (git checkout -b feature/AmazingFeature)</li>
+<li>Commit your Changes (git commit -m 'Add some AmazingFeature')</li>
+<li>Push to the Branch (git push origin feature/AmazingFeature)</li>
+<li>Open a Pull Request</li>
+<ul>
