@@ -9,6 +9,13 @@
 <h2>Version Desktop</h2>
 
 <h2>Technologies used</h2>
+<div>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="35" title="React"/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="35" title="Typescript"/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" width="35" title="Figma"/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain-wordmark.svg" title="Visual Code" width="50" />
+    <img src="https://mui.com/static/logo.png" width="40" title="MUI">
+</div>
     
 <h2> Project link </h2>
 
