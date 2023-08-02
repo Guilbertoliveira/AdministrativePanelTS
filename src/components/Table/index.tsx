@@ -7,6 +7,8 @@ import TableCell from "@mui/material/TableCell/TableCell";
 import { titles } from "./datas";
 import TableBody from '@mui/material/TableBody';
 import IQuery from "../../types/IQuery";
+import { CellStyledMui, RowStyledMui } from './styles';
+
 
 export default function TableMui({ data }: { data: IQuery[] | null }) {
 
@@ -19,22 +21,21 @@ export default function TableMui({ data }: { data: IQuery[] | null }) {
 
                             {titles.map((title, index) => {
                                 return (
-                                    <TableCell key={index}>{title}</TableCell>)
+                                    <CellStyledMui key={index}>{title}</CellStyledMui>)
                             })}
                         </TableRow>
                     </TableHead>
                     <TableBody>
                         {data?.map((dataColumn) => {
                             return (
-                                <TableRow>
-                                    <TableCell component="th" scope="row">{dataColumn.date}</TableCell>
-                                    <TableCell component="th" scope="row">{dataColumn.time}</TableCell>
-                                    <TableCell component="th" scope="row">{dataColumn.professional[0].name}</TableCell>
-                                    <TableCell component="th" scope="row">{dataColumn.patient}</TableCell>
-                                    <TableCell component="th" scope="row">{dataColumn.modality}</TableCell>
-                                    <TableCell component="th" scope="row">{dataColumn.modality}</TableCell>
-                                </TableRow>
-
+                                <RowStyledMui>
+                                    <CellStyledMui component="th" scope="row">{new Date(dataColumn.date).toLocaleDateString()}</CellStyledMui>
+                                    <CellStyledMui component="th" scope="row">{dataColumn.time}</CellStyledMui>
+                                    <CellStyledMui component="th" scope="row">{dataColumn.professional[0].name}</CellStyledMui>
+                                    <CellStyledMui component="th" scope="row">{dataColumn.patient}</CellStyledMui>
+                                    <CellStyledMui component="th" scope="row">{dataColumn.modality}</CellStyledMui>
+                                    <CellStyledMui component="th" scope="row">{dataColumn.modality}</CellStyledMui>
+                                </RowStyledMui>
                             )
                         })
                         }
