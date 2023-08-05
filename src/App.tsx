@@ -24,7 +24,7 @@ function App() {
       <ContainerStyled>
         <Title>Área Administrativa</Title>
         <Table data={query}></Table>
-        <Graphic query={query} professional={professional} />
+        <Graphic query={query} professionals={professional} />
       </ContainerStyled>
       <Footer></Footer>
     </>

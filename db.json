@@ -1,5 +1,5 @@
 {
-    "profissionais": [
+    "professionals": [
         {
             "id": 1,
             "image": "https://imgur.com/imkS67m.png",
@@ -29,7 +29,7 @@
             "note": 4.7
         }
     ],
-    "consultas": [
+    "querys": [
         {
             "id": 1,
             "date": "2022-01-24",
@@ -57,30 +57,30 @@
             "modality": "Particular"
         }
     ],
-    "avaliacoes": [
+    "assessments": [
         {
             "id": 1,
             "data": "2022-04-01",
-            "horario": "10:30",
+            "time": "10:30",
             "professional": [
                 {
-                    "nome": "Ana Luiza",
-                    "especialidade": "Clínico Geral"
+                    "name": "Ana Luiza",
+                    "specialty": "Clínico Geral"
                 }
             ],
-            "nota": 4.5
+            "note": 4.5
         },
         {
             "id": 2,
             "data": "2022-04-01",
-            "horario": "10:30",
+            "time": "10:30",
             "professional": [
                 {
-                    "nome": "Caroline Carvalho",
-                    "especialidade": "Nutricionista"
+                    "name": "Caroline Carvalho",
+                    "specialty": "Nutricionista"
                 }
             ],
-            "nota": 4.5
+            "note": 4.5
         }
     ]
 }
