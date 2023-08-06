@@ -7,6 +7,7 @@ import Table from './components/Table';
 import useQueryData from './useQueryData';
 import useProfessional from './useProfessional';
 import Graphic from './components/Graphic';
+import Assessment from './components/Assessment';
 
 
 
@@ -25,6 +26,7 @@ function App() {
         <Title>Área Administrativa</Title>
         <Table data={query}></Table>
         <Graphic query={query} professionals={professional} />
+        <Assessment professionals={professional}></Assessment>
       </ContainerStyled>
       <Footer></Footer>
     </>
