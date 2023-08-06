@@ -32,8 +32,8 @@ export default function TableMui({ data }: { data: IQuery[] | null }) {
                                     <CellStyledMui component="th" scope="row">{new Date(dataColumn.date).toLocaleDateString()}</CellStyledMui>
                                     <CellStyledMui component="th" scope="row">{dataColumn.time}</CellStyledMui>
                                     <CellStyledMui component="th" scope="row">{dataColumn.professional[0].name}</CellStyledMui>
+                                    <CellStyledMui component="th" scope="row">{dataColumn.professional[0].specialty}</CellStyledMui>
                                     <CellStyledMui component="th" scope="row">{dataColumn.patient}</CellStyledMui>
-                                    <CellStyledMui component="th" scope="row">{dataColumn.modality}</CellStyledMui>
                                     <CellStyledMui component="th" scope="row">{dataColumn.modality}</CellStyledMui>
                                 </RowStyledMui>
                             )
