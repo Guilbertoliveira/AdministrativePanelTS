@@ -1,11 +1,19 @@
 import styled from "styled-components";
-import { Props } from ".";
+import { Props } from "./";
 
 export const SpanStyled = styled.span<Props>`
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
-background-image: ${props => props.image ? `url(${props.image})` : 'none'};
+    position: relative; 
+
+&::before{
+    content: '';
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    background-image: ${props => props.image ? `url(${props.image})` : 'none'};
+    display:inline-block;
+    vertical-align:middle;
+    margin-right: 10px;
+}
 `
 
 export const TitleStyled = styled.h2`
