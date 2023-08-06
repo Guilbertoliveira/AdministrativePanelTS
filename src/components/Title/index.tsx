@@ -21,11 +21,10 @@ export default function Title({ image, children }: Props) {
         consulta: consulta
     }
 
-
     return (
         < ContainerStyled >
             {/* checking if the passed image exists in the object defined with keyof */}
-            {image && <SpanStyled image={listaDeImagens[image as keyof IImagens]} />}
+            {image && <SpanStyled image={listaDeImagens[image as keyof IImagens]}></SpanStyled>}
             <TitleStyled>{children}</TitleStyled>
         </ContainerStyled >
     )
