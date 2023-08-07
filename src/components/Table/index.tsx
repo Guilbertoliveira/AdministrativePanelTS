@@ -8,12 +8,15 @@ import { titles } from "./datas";
 import TableBody from '@mui/material/TableBody';
 import IQuery from "../../types/IQuery";
 import { CellStyledMui, RowStyledMui } from './styles';
+import Title from "../Title";
+import { Button } from "../Button";
 
 
 export default function TableMui({ data }: { data: IQuery[] | null }) {
 
     return (
         <>
+            <Title image="consulta">Consultas do dia</Title>
             <TableContainer component={Paper}>
                 <Table sx={{ minWidth: 650 }} arial-label="simple table">
                     <TableHead>
@@ -42,6 +45,7 @@ export default function TableMui({ data }: { data: IQuery[] | null }) {
                     </TableBody>
                 </Table>
             </TableContainer>
+            <Button>Ver mais</Button>
         </>
     )
 }
