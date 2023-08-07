@@ -7,7 +7,7 @@ import { SectionStyled } from './styles'
 export default function Assessment({ professionals }: { professionals: IProfessional[] | null }) {
     return (
         <>
-            <Title>Avaliações de especialistas</Title>
+            <Title image="avaliacao">Avaliações de especialistas</Title>
             <SectionStyled>
                 {professionals?.map((professional) => {
                     return <Card professional={professional}></Card>

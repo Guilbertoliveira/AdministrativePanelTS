@@ -6,13 +6,14 @@ export const SpanStyled = styled.span<Props>`
 
 &::before{
     content: '';
-    width: 30px;
-    height: 30px;
-    background-size: cover;
+    width: 20px;
+    height: 22px;
+    background-size: auto;
     background-image: ${props => props.image ? `url(${props.image})` : 'none'};
     display:inline-block;
-    vertical-align:middle;
     margin-right: 10px;
+    background-repeat: no-repeat;
+    vertical-align: middle
 }
 `
 

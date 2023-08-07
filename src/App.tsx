@@ -8,6 +8,7 @@ import useQueryData from './useQueryData';
 import useProfessional from './useProfessional';
 import Graphic from './components/Graphic';
 import Assessment from './components/Assessment';
+import { Button } from './components/Button';
 
 
 
@@ -24,6 +25,7 @@ function App() {
       <Header></Header>
       <ContainerStyled>
         <Title>Área Administrativa</Title>
+        <Button>Cadastrar especialista</Button>
         <Table data={query}></Table>
         <Graphic query={query} professionals={professional} />
         <Assessment professionals={professional}></Assessment>
