@@ -32,7 +32,6 @@ const CustomTooltip = ({ active, payload, label }: any) => {
 
 export default function Graphic({ professionals, query }: Props) {
     let data: Array<IData> = useDataGraphic({ professionals, query });
-    console.log(data)
     return (
         <>
             <Title image="grafico">Consultas mensais por especialista</Title>

@@ -2,10 +2,11 @@ import { Rating } from "@mui/material";
 import IProfessional from "../../types/IProfessional";
 import { DivStyled, DescribeStyled, RatingStyled, ContainerProfessional, CardStyled, ImageStyled, NameStyled, SpecialityStyled } from './styles'
 
-export default function Card({ professional }: { professional: IProfessional | null }) {
+export default function Card({ professional, onClick }: { professional: IProfessional | null, onClick: any }) {
     return (
-        <DivStyled>
-            <CardStyled>
+        <DivStyled onClick={(event) => {
+            onClick(event)
+        }}>            <CardStyled>
                 <ContainerProfessional>
                     <ImageStyled>
                         <img src={professional?.image} alt={`foto de perfil do profissional ${professional?.name}`}></img>

@@ -12,7 +12,7 @@ export const DivStyled = styled.div`
     word-wrap: break-word;
 `
 
-export const DescribeStyled = styled.li`
+export const DescribeStyled = styled.span`
 display: flex;
 flex-direction: column;
 text-align: center;
@@ -36,14 +36,14 @@ font-weight: 400;
 margin:0px;
 `
 
-export const RatingStyled = styled.li`
+export const RatingStyled = styled.span`
 `
 
 export const ContainerProfessional = styled.span`
 display: flex;
 `
 
-export const CardStyled = styled.ul`
+export const CardStyled = styled.div`
 display: flex;
 justify-content: space-between;
 align-items: center;
@@ -51,7 +51,7 @@ list-style: none;
 padding: 0px 40px;
 `
 
-export const ImageStyled = styled.li`
+export const ImageStyled = styled.span`
 border-radius: 80px;
 overflow: hidden;
 height: 80px;
