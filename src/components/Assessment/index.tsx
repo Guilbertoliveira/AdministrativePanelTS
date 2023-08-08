@@ -3,16 +3,20 @@ import { Button } from "../Button";
 import Card from "../Card";
 import Title from "../Title";
 import { SectionStyled } from './styles'
+import OpenSpecialist from "../OpenSpecialist";
+import { useState } from 'react';
 
-export default function Assessment({ professionals }: { professionals: IProfessional[] | null }) {
+export default function Assessment({ professionals, funcao }: { professionals: IProfessional[] | null, funcao: any }) {
+    const [activatedCard, setActivatedCard] = useState(false);
+
     return (
         <>
             <Title image="avaliacao">Avaliações de especialistas</Title>
             <SectionStyled>
                 {professionals?.map((professional) => {
-                    return <Card professional={professional}></Card>
+                    return <Card professional={professional} onClick={funcao}></Card>
                 })}
-            </SectionStyled>
+            </SectionStyled >
             <Button>Ver mais</Button>
         </>
 

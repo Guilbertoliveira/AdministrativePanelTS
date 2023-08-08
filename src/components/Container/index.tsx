@@ -6,4 +6,5 @@ export const ContainerStyled = styled.section`
   border-radius: 16px;
   padding: 2em;
   height: 100%;
+ 
 `;
