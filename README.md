@@ -1,5 +1,12 @@
 <div align="center">
+<img src="https://github.com/Guilbertoliveira/AdministrativePanelTS/blob/main/src/components/Title/assets/consulta.png" width="30">
 <h1> Dashboard of patient</h1>
+    <img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/Guilbertoliveira/AdministrativePanelTS" />
+    <img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/Guilbertoliveira/AdministrativePanelTS" />
+    <img alt="GitHub Pull Requests" src="https://img.shields.io/github/issues-pr/Guilbertoliveira/AdministrativePanelTS" />
+    <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/Guilbertoliveira/AdministrativePanelTS" />
+    <img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/Guilbertoliveira/AdministrativePanelTS" />
+    <img alt="Github License" src="https://img.shields.io/github/license/Guilbertoliveira/AdministrativePanelTS" />
 </div>
 
 <h3>:hammer:Project Status:hammer:</h3>
@@ -33,6 +40,39 @@
 </div>
     
 <h3> Project link </h3>
+<a href="https://administrative-panel-ts.vercel.app/">Link Vercel</a>
+
+<h2>To use the project:</h2>
+<ol>
+
+<li>Clone repository with gitbash</li>
+
+```
+https://github.com/Guilbertoliveira/AdministrativePanelTS.git
+```
+
+<li>To install project dependencies (you need to have node.js installed)</li>
+
+```
+npm install
+```
+
+<li>To run the project locally</li>
+
+```
+npm start
+```
+
+<li>Remembering that you need the backend that will be available, in this case the backend is "marked" in the file itself</li>
+
+
+```
+npm run api
+```
+
+
+</ol>
+
 
 <h3>Contributing</h3>
 <ul>
