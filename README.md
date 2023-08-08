@@ -39,8 +39,11 @@
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="40" title="NodeJs"/>
 </div>
     
-<h3> Project link </h3>
+<h2> Project link </h2>
 <a href="https://administrative-panel-ts.vercel.app/">Link Vercel</a>
+
+<h2> Figma link</h2>
+<a href="https://www.figma.com/file/61CRNXlUmooMttGVa0GvML/React-fullstack---Voll.med?node-id=246%3A3606">Link Figma</a>
 
 <h2>To use the project:</h2>
 <ol>
